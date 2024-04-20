@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fast-test"
+version = "0.1.0"
+description = ""
+authors = ["iamnovichek <rungotika@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.1"
+uvicorn = "^0.29.0"
+sqlalchemy = "^2.0.29"
+black = "^24.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
