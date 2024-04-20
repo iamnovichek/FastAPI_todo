@@ -6,6 +6,18 @@
 
 # Setup
 
+### Clone git repository
+
+```bash
+git clone https://github.com/iamnovichek/FastAPI_todo.git
+```
+
+### Go to FastAPI_todo
+
+```bash
+cd FastAPI_todo
+```
+
 ### Intall all requirements
 
 ```bash
