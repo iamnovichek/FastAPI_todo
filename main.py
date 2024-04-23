@@ -24,7 +24,13 @@ from crud import (
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
-app.add_middleware(CORSMiddleware, allow_origins=origins)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 def check_task_exists(task: Task = None, task_id: int = None):
