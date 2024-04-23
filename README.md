@@ -21,7 +21,7 @@ cd FastAPI_todo
 ### Intall all requirements
 
 ```bash
-poetry init
+poetry install
 ```
 
 # Run app
